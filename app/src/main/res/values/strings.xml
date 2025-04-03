@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Mathrix</string>
+    <string name="tutorial_text">\nBem-vindo ao Matrinx!
+Neste jogo, você precisará resolver desafios baseados em matrizes, utilizando lógica e estratégia para alcançar o objetivo. Cada fase apresenta uma matriz com números ou símbolos, e sua missão é encontrar padrões, resolver operações ou reorganizar os elementos corretamente.
+Se for sua primeira vez jogando, recomendamos acessar o tutorial antes de começar. Nele, você aprenderá as regras básicas e algumas dicas para melhorar seu desempenho.
+Está pronto para o desafio? Então vamos jogar! 🚀</string>
+    <string name="text_buttom_menu">Sim, vamos jogar!</string>
+    <string name="pontuacao">Pontuação</string>
+    <string name="solucao">Solução</string>
+    <string name="jogar">Jogar</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="aprender">"A matriz é comumente utilizada para a organização de dados tabulares a fim de facilitar a resolução de problemas. As informações das matrizes, sejam estas numéricas ou não, são dispostas organizadamente em linhas e colunas.
+
+O conjunto das matrizes munido das operações de adição, subtração e multiplicação e de características, como elemento neutro e inverso, forma uma estrutura matemática que possibilita sua aplicação em diversos campos dessa grande área do conhecimento."
+
+</string>
 </resources>
