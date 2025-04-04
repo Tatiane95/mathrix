@@ -11,7 +11,8 @@
     tools:visibility="visible">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/robot"
+        android:contentDescription="@string/robot"
         android:layout_width="184dp"
         android:layout_height="151dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,7 +23,8 @@
         app:srcCompat="@drawable/robo1" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/logo"
+        android:contentDescription="@string/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

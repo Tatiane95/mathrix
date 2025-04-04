@@ -1,17 +1,40 @@
 <resources>
     <string name="app_name">Mathrix</string>
-    <string name="tutorial_text">\nBem-vindo ao Matrinx!
-Neste jogo, você precisará resolver desafios baseados em matrizes, utilizando lógica e estratégia para alcançar o objetivo. Cada fase apresenta uma matriz com números ou símbolos, e sua missão é encontrar padrões, resolver operações ou reorganizar os elementos corretamente.
-Se for sua primeira vez jogando, recomendamos acessar o tutorial antes de começar. Nele, você aprenderá as regras básicas e algumas dicas para melhorar seu desempenho.
-Está pronto para o desafio? Então vamos jogar! 🚀</string>
+    <string name="tutorial_text">\nBem-vindo ao Matrinx! Neste jogo, você precisará resolver desafios baseados em matrizes, utilizando lógica e estratégia para alcançar o objetivo. Cada fase apresenta uma matriz com números ou símbolos, e sua missão é encontrar padrões, resolver operações ou reorganizar os elementos corretamente. Se for sua primeira vez jogando, recomendamos acessar o tutorial antes de começar. Nele, você aprenderá as regras básicas e algumas dicas para melhorar seu desempenho. Está pronto para o desafio? Então vamos jogar! 🚀</string>
     <string name="text_buttom_menu">Sim, vamos jogar!</string>
     <string name="pontuacao">Pontuação</string>
+    <string name="conclusao">Conclusão</string>
     <string name="solucao">Solução</string>
+    <string name="learn">Aprender</string>
     <string name="jogar">Jogar</string>
     <string name="tutorial">Tutorial</string>
-    <string name="aprender">"A matriz é comumente utilizada para a organização de dados tabulares a fim de facilitar a resolução de problemas. As informações das matrizes, sejam estas numéricas ou não, são dispostas organizadamente em linhas e colunas.
-
-O conjunto das matrizes munido das operações de adição, subtração e multiplicação e de características, como elemento neutro e inverso, forma uma estrutura matemática que possibilita sua aplicação em diversos campos dessa grande área do conhecimento."
-
-</string>
+    <string name="aprender">"A matriz é comumente utilizada para a organização de dados tabulares a fim de facilitar a resolução de problemas. As informações das matrizes, sejam estas numéricas ou não, são dispostas organizadamente em linhas e colunas. O conjunto das matrizes munido das operações de adição, subtração e multiplicação e de características, como elemento neutro e inverso, forma uma estrutura matemática que possibilita sua aplicação em diversos campos dessa grande área do conhecimento."</string>
+    <string name="robot">robot</string>
+    <string name="logo">logo</string>
+    <string name="play">play</string>
+    <string name="what_is_matriz">O que é matriz?</string>
+    <string name="guide_content">"A matriz é comumente utilizada para a organização de dados tabulares a fim de facilitar a resolução de problemas. As informações das matrizes, sejam estas numéricas ou não, são dispostas organizadamente em linhas e colunas. O conjunto das matrizes munido das operações de adição, subtração e multiplicação e de características, como elemento neutro e inverso, forma uma estrutura matemática que possibilita sua aplicação em diversos campos dessa grande área do conhecimento."</string>
+    <string name="lets_see_examples">vamos ver alguns exemplos</string>
+    <string name="addition_content">Para somar duas matrizes, elas precisam ter o mesmo tamanho (mesmo número de linhas e colunas). A soma é feita somando elemento por elemento, ou seja, cada elemento de uma matriz é somado ao elemento correspondente da outra.\nPasso a Passo:\n1. Verifique o tamanho das matrizes (devem ser iguais).\n2. Some os elementos correspondentes:\n3. C(i,j)=A(i,j)+B(i,j)\nConstrua a matriz resultante com as somas. </string>
+    <string name="addition_content_second_part">Exemplo:\n\nA = |1&#160;&#160;2|, B = |5&#160;&#160;6|\n&#160;&#160;&#160;&#160;|3&#160;&#160;4|&#160;&#160;&#160;&#160;&#160;&#160;|7&#160;&#160;8|\n\nC = |1+5&#160;&#160;2+6| = |6&#160;&#160;&#160;8|\n&#160;&#160;&#160;&#160;|3+7&#160;&#160;4+8|&#160;&#160;&#160;|10&#160;12|</string>
+    <string name="subtraction_content">A subtração de matrizes é bem semelhante à soma, mas, ao invés de somar os elementos correspondentes, você vai subtrair os elementos de uma matriz pelos elementos da outra. Assim como na soma, as matrizes precisam ter as mesmas dimensões (mesmo número de linhas e colunas) para que a subtração seja possível.\nPara realizar a subtração de duas matrizes A e B, você subtrai os elementos correspondentes A(i,j) e B(i,j).\nOu seja:\nC(i,j)=A(i,j)-B(i,j)</string>
+    <string name="subtraction_content_second_part">Exemplo:\n\nA = |1&#160;&#160;2|, B = |5&#160;&#160;6|\n&#160;&#160;&#160;&#160;|3&#160;&#160;4|&#160;&#160;&#160;&#160;&#160;&#160;|7&#160;&#160;8|\n\nC = |1-5&#160;&#160;2-6| = |-4&#160;&#160;-4|\n&#160;&#160;&#160;&#160;|3-7&#160;&#160;4-8|&#160;&#160;&#160;|-4&#160;&#160;-4|</string>
+    <string name="multiplication_content">Multiplicação de matrizes é um jeito de combinar duas tabelas de números para criar uma nova. Mas tem uma regra importante: só dá pra multiplicar se o número de colunas da primeira matriz for igual ao número de linhas da segunda.\nO processo funciona assim:\n1. Pegamos uma linha da primeira matriz e uma coluna da segunda.\n2. Multiplicamos os elementos correspondentes e somamos os resultados.\n3. O valor final vai para a posição correspondente na nova matriz.</string>
+    <string name="multiplication_content_second_part">Exemplo:\n\nA = |1&#160;&#160;2|, B = |5&#160;&#160;6|\n&#160;&#160;&#160;&#160;|3&#160;&#160;4|&#160;&#160;&#160;&#160;&#160;&#160;|7&#160;&#160;8|\nO elemento da primeira linha e primeira coluna do resultado será:\n1×5+2×7=5+14=19\nFazendo isso para todos os elementos, a matriz resultante será:\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|19&#160;&#160;22|\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|43&#160;&#160;50|</string>
+    <string name="go_back">go back</string>
+    <string name="addition">Adição</string>
+    <string name="addition_symbol">+</string>
+    <string name="subtraction">Subtração</string>
+    <string name="subtraction_symbol">-</string>
+    <string name="multiplication">Multiplicação</string>
+    <string name="multiplication_symbol">*</string>
+    <string name="next">Próximo</string>
+    <string name="ok">OK</string>
+    <string name="step_by_step">Passo a passo</string>
+    <string name="score">Pontuação: </string>
+    <string name="correct">Correct</string>
+    <string name="wrong">Errado</string>
+    <string name="proceed">Continue</string>
+    <string name="heart">Heart</string>
+    <string name="game">Jogo</string>
 </resources>
